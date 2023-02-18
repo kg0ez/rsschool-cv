@@ -1,6 +1,4 @@
-### - CV
-
-# - Бовбель Кирилл
+# Бовбель Кирилл
 # тг - kg0ez
 
 # O себе
@@ -16,8 +14,11 @@
 + MS SQL Server, MySQL
 + HTML5
 
+# Пример кода
 ```
     Console.WriteLine("Hello world");
 ```
-# YOUX Systems
-# Polessky State University - Bachelor's degree, Information Technology
+# Место работы - YOUX Systems
+
+# Образование
+    Polessky State University - Bachelor's degree, Information Technology
