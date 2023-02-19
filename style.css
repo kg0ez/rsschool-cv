@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+    padding:0;
+    margin:0;
+    border:0;
+}
+a {
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: circle;
+}
+
+html {
+    font-size: 14px;
+}
+img {
+    vertical-align:top;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    background: #fafafa;
+    color: #252b42;
+    font-weight: 500;
+    font-family: 1;
+}
+body{
+    padding-top: 50px;
+}
+._container {
+    max-width:1046px;
+    margin:0px auto;
+    padding:0px 15px;
+    box-sizing:content-box; /*чтобы padding добавлялся к контенту, а не забирал место в max-width при уменьшении размера окна*/
+}
+
+.main-block{
+    display: flex;
+}
+
+.main-block__body{
+    width: 50%;
+}
+.main-block__title{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline grey;
+    
+}
+.main-block__subtitle{
+    padding: 10px 0px 0px 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.main-block__container{
+    padding: 0px 0px 15px 20px;
+}
+.main-block__header{
+    padding-bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.main-block__list{
+    padding: 10px 0px 0px 25px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.main-block__code{
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 40px;
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(128, 128, 128,15%);
+    color: black;
+}
+
+.main-block__photo{
+    max-width: 300px;
+}
+.main-block__photo-container{
+    text-align: center;
+}
